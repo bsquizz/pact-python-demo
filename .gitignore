@@ -1,0 +1,8 @@
+*.json
+log/*
+reports/*
+tmp/*
+*.pyc
+*.log
+.cache/*
+.pytest_cache/*

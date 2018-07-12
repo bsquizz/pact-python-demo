@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+atomicwrites = "*"
+attrs = "*"
+certifi = "*"
+chardet = "*"
+click = "*"
+idna = "*"
+more-itertools = "*"
+pact-python = "*"
+pipenv = "*"
+pluggy = "*"
+psutil = "*"
+py = "*"
+pytest = "*"
+requests = "*"
+six = "*"
+"urllib3" = "*"
+virtualenv = "*"
+virtualenv-clone = "*"
+flask = "*"
+
+[requires]
+python_version = "2.7"
