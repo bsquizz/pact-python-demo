@@ -1,5 +1,4 @@
 import atexit
-import os
 import unittest
 
 from pact import Consumer, Like, Provider, Term
@@ -22,7 +21,7 @@ def client():
 @pytest.fixture(scope='module')
 def pact():
     pact = Consumer('Consumer').has_pact_with(
-        Provider('Provider'), host_name=pact_mock_host, port=pact_mock_port)
+        Provider('Provider'), host_name=PACT_MOCK_HOST, port=PACT_MOCK_PORT)
     pact.start_service()
     atexit.register(pact.stop_service)
     return pact
