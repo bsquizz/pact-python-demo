@@ -1,6 +1,9 @@
 pact-python demo
 ================
 
+**NOTE:** This README needs to be updated since adding examples for the pact broker
+
+
 This simple client/server implementation demos how pact-python can be used for a contract test.
 
 Further reading about pact is at https://docs.pact.io/ or https://docs.pact.io/blogs-videos-and-articles
