@@ -64,7 +64,7 @@ def pact(request):
     yield pact
     pact.stop_service()
 
-    version = request.config.getoption('--publish-pact-ver')
+    version = request.config.getoption('--publish-pact')
     if not request.node.testsfailed and version:
         push_to_broker(version)
 
